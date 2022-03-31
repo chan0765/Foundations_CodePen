@@ -1,0 +1,100 @@
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #000000;
+}
+
+.navigation-wrapper > .navigation-left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .navigation-left-column > .center-column-links {
+    margin: 0px 0px 0px 40px;
+}
+
+.navigation-wrapper > .navigation-left-column > .codepen-logo-image img {
+    width: 200px;
+    height: 100%;
+    padding: 30px 20px;
+}
+
+.navigation-wrapper > .navigation-left-column > .center-column-links > .center-main {
+    display: flex;
+    flex-direction: column;
+    color: #FFFF00;
+    font-size: 22px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+}
+
+.navigation-wrapper > .navigation-left-column > .center-column-links > .center-main > .center-main-sub {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+}
+
+.navigation-wrapper > .navigation-left-column > .center-column-links > .center-main > .center-main-sub > .spark {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #CCCCCC;
+    font-size: 18px;
+    padding: 0px 0px 0px 20px;
+} 
+
+.navigation-wrapper > .navigation-left-column > .center-column-links > .center-main > .center-main-sub > .spark-chevron {
+    color: #CCCCCC;
+}
+
+.navigation-wrapper > .right-column-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    width: 435px;
+    padding: 0px 30px 0px 0px;
+}
+
+.spyglass {
+    padding: 0px 10px;
+    color: #CCCCCC
+}
+
+.create-btn {
+    background-color: #4F4F4F;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    outline: none;
+}
+
+.spyglass {
+    font-size: 2em;
+}
+
+.login-btn {
+    background-color: #4F4F4F;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    outline: none;
+}
+
+.sign-up-btn {
+    background-color: #4F4F4F;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    outline: none;
+}
